@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TambahCatatanActivity">
+
+    <EditText
+        android:id="@+id/ed_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Hutang"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+        <EditText
+            android:id="@+id/ed_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Hutang"
+            android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/ed_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Hutang"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Simpan"
+        android:textColor="@color/design_default_color_background" />
+</LinearLayout>
